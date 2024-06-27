@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryna - Green World</title>
+    <style>
+        body {
+            background-color: #3e7a40;
+            font-family: 'Raleway', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(117, 165, 117, 0.9); 
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .navbar {
+            background-color: #39683c;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center; 
+            position: sticky; 
+            top: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        .navbar a {
+            color: #fcfcfc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+  
+     
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 18px;
+            color: #f3e5f5;
+            background-color: #2e5e39;
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: #614454;
+        }
+        .header {
+            padding: 30px 20px;
+            background: linear-gradient(145deg, #678962, #70a583);
+            color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            animation: fadeIn 2s;
+        }
+        .info-section {
+            background-color: #c7ffd8;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            font-family: 'Arial', cursive;
+            position: relative;
+        }
+        .info-section h4 {
+            color: #2e5e39;
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #3e7a40;
+        }
+        .info-section::before {
+            content: '';
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+        .info-item {
+            margin: 10px 0;
+            animation: slideIn 1s;
+        }
+        .info-icons {
+            font-size: 1.2em;
+            color: #2e5e39;
+            margin-right: 10px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #39683c;
+            color: #fff;
+            border-top: 1px solid #ccc;
+            position: relative;
+        }
+        .footer h2 a {
+            color: #fcfcfc;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .footer h2 a:hover {
+            color: #f2b6d8;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="index.html">
+        <img src="loggos.jpg" alt="Aryna" title="Aryna - Green World">
+    </a>
+</header>
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="bio.html">Biodata</a>
+    <a href="fam.html">Backbone</a>
+    <a href="edu.html">Education</a>
+    <a href="fri.html">Friend</a>
+    <a href="hob.html">Hobby</a>
+    <a href="gal.html">Gallery</a>
+</nav>
+
+<div class="container">
+    <div class="header">
+        <h1>My Backbone! :)</h1>
+    </div>
+
+    <div class="info-section">
+        <center>
+            <img src="tokwan.jpg" width="20%" height="20%" title="Hi pep! This is my grandfather">
+            <h4>GRANDFATHER NAME:<br>KASSIM BIN MAN</h4>
+        </center>
+    </div>
+
+    <div class="info-section">
+        <center>
+            <img src="tok.jpg" width="20%" height="20%" title="Hi pep! This is my grandmother">
+            <h4>GRANDMOTHER NAME:<br>FATIMAH BINTI OTHMAN</h4>
+        </center>
+    </div>
+
+    <div class="info-section">
+        <center>
+            <img src="makayah.jpg" width="20%" height="20%" title="Hi pep! This is my father and mother">
+            <h4>FATHER:<br>YUSOF BIN AHMAD<br>
+                This year dad is 47. He always puts family first.<br>
+                My dad is willing to be hungry, as long as we are full.<br>
+                My dad doesn't speak a lot, but I can feel the warmth of his love.<br>
+                When I ask for something, even if it is difficult, he always tries his best.<br>
+                Thank you so much, my one and only super dad.
+            </h4>
+            <h4>MOTHER:<br>NOORLIA BINTI KASSIM<br>
+                This year my beautiful mother is 46, one year younger than my dad.<br>
+                My mother is a very kind and gentle person.<br>
+                My mother is also a multitasking person; she can cook, wash clothes, clean the house, and babble at the same time.<br>
+                If I want to eat something, my mother will cook it without any excuse.
+            </h4>
+        </center>
+    </div>
+
+    <div class="info-section">
+        <center>
+            <img src="syifa.jpg" width="20%" height="20%" title="Hi pep! This is my cute sister">
+            <h4>SISTER NAME:<br>NUR AMANI SYIFA BINTI YUSOF<br>
+                Although this year my sister is 16 years old, in my eyes she is still an adorable baby.<br>
+                The two of us are so close that people around us feel weird and jealous.<br>
+                My sister is my strength. She helps me solve many of my problems.<br>
+                She is my moving mental and physical diary. I think about her almost every day.<br>
+                Almost every day I miss my little sister who is beautiful, smart, diligent, loving, generous, and polite.<br>
+                Syifa is my soul, love you sweetie.
+            </h4>
+        </center>
+    </div>
+    
+    <video width="320" height="240" controls>
+        <source src="vd4.mp4" type="video/mp4">
+        <source src="vd4.mp4" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    
+    <p><strong>Made with a big green hug <3</strong></p>
+    
+    <audio controls>
+        <source src="lagubc.mp3" type="audio/ogg">
+        <source src="lagubc.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+<hr>
+
+<footer class="footer">
+    Copyright &copy; ArynaGreenWorld.love 2023-2024
+    <h2 style="text-align:right;"><a href="#top">UP"2 THE MOON</a></h2>
+</footer>
+
+</body>
+</html>
+
